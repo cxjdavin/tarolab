@@ -11,6 +11,16 @@
   --content:1100px;
 }
 
+a {
+  color: var(--taro-dark-purple);
+}
+a:hover {
+  color: var(--taro-light-purple);
+}
+a:visited {
+  color: var(--taro-dark-purple);
+}
+
 *{margin:0;padding:0;box-sizing:border-box}
 html{
   scroll-behavior:smooth;
@@ -59,7 +69,7 @@ header{
   height:50px;
 }
 .brand-name{
-  color:var(--purple-dark);
+  color:var(--taro-dark-purple);
   letter-spacing:-.03em;
 }
 .brand-sub{
@@ -87,7 +97,6 @@ nav a:hover{
 }
 .hero-grid{
   display:grid;
-/*  grid-template-columns:1.4fr .9fr;*/
   gap:2rem;
   align-items:center;
 }
